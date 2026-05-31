@@ -13,21 +13,21 @@ const Hero = () => {
           {/* LEFT SIDE */}
           <div>
             {/* Badge */}
-            <div className="inline-block px-5 py-2 border border-violet-500 rounded-full text-violet-400 text-sm mb-6">
+            {/* <div className="inline-block px-5 py-2 border border-violet-500 rounded-full text-violet-400 text-sm mb-6">
               ● FRONTEND DEVELOPER
-            </div>
+            </div> */}
 
             {/* Heading */}
             {/* Heading */}
             <h1
               className="
-  text-5xl
-  sm:text-6xl
-  lg:text-7xl
-  font-bold
-  leading-tight
-  text-white
-  "
+                         text-5xl
+                         sm:text-6xl
+                         lg:text-7xl
+                         font-bold
+                         leading-tight
+                         text-white
+                         "
             >
               Hi, I'm{" "}
               <span className="text-violet-500">
@@ -38,15 +38,15 @@ const Hero = () => {
             {/* Sub Heading */}
             <h2
               className="
-  mt-6
-  text-2xl
-  sm:text-3xl
-  lg:text-4xl
-  font-semibold
-  leading-snug
-  text-gray-200
-  max-w-2xl
-  "
+                         mt-6
+                         text-2xl
+                         sm:text-3xl
+                         lg:text-4xl
+                         font-semibold
+                         leading-snug
+                         text-gray-200
+                         max-w-2xl
+                         "
             >
               I build modern, fast & responsive{" "}
               <span className="text-violet-400">
@@ -57,13 +57,13 @@ const Hero = () => {
             {/* Description */}
             <p
               className="
-  mt-8
-  text-gray-400
-  text-base
-  sm:text-lg
-  leading-8
-  max-w-xl
-  "
+                        mt-8
+                        text-gray-400
+                        text-base
+                        sm:text-lg
+                        leading-8
+                        max-w-xl
+                        "
             >
               Frontend Developer skilled in React.js,
               Tailwind CSS, JavaScript and modern
